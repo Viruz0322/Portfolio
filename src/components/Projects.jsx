@@ -1,8 +1,8 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import AmeliorateImg from '../assets/Ameliorate.jpg'
-import NoteTakerImg from '../assets/Note Taker.jpg'
-import TextEditorImg from '../assets/Text Editor.jpg'
+import OpenMindedImg from '../assets/Open Minded.jpg'
+import HappenInImg from '../assets/HappenIn.jpg'
 
 
 const Projects = () => {
@@ -14,8 +14,8 @@ const Projects = () => {
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem  img={AmeliorateImg} title= 'Ameliorate App' link={'https://ameliorate.herokuapp.com/login'}/>
-        <ProjectItem  img={NoteTakerImg} title= 'NoteTaker App'/>
-        <ProjectItem  img={TextEditorImg} title= 'TextEditor App'/>
+        <ProjectItem  img={OpenMindedImg} title= 'Open Mind App' link={'https://open-minded.herokuapp.com/'}/>
+        <ProjectItem  img={HappenInImg} title= 'HappenIn App' link={'https://viruz0322.github.io/HappenIn/'}/>
       </div>
     </div>
   )

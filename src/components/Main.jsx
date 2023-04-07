@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
 function Main() {
   return (
@@ -17,9 +17,11 @@ function Main() {
                     sequence={[
                         'Developer',
                         2000,
-                        'Coder',
+                        'Father',
+                        2000, 
+                        'Watch Enthusiast',
                         2000,
-                        'Tech Enthusiast',
+                        'Researcher',
                         2000
                     ]}
                     wrapper = 'div'
@@ -29,10 +31,15 @@ function Main() {
                     />
                 </h2>
                 <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                    <FaTwitter className='cursor-pointer' size = {20}/>
-                    <FaFacebookF className='cursor-pointer' size = {20}/>
-                    <FaInstagram className='cursor-pointer' size = {20}/>
-                    <FaLinkedinIn className='cursor-pointer' size = {20}/>
+                    <a href="https://github.com/Viruz0322" target='_blank'>
+                    <FaGithub className='cursor-pointer text-green-400' size = {20}/>
+                    </a>
+                    <a href="https://www.instagram.com/fperez32219/" target='_blank'>
+                    <FaInstagram className='cursor-pointer text-green-400' size = {20}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/francisco-perez-perez-134a7326a/" target='_blank'>
+                    <FaLinkedinIn className='cursor-pointer text-green-400' size = {20}/>
+                    </a>
                 </div>
             </div>
         </div>
